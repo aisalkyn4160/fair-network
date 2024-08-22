@@ -88,7 +88,7 @@
 		justify-content: flex-start;
 		gap: 30px;
 		position: absolute;
-		top: 85px;
+		top: 75px;
 		left: -300%;
 		transition: 0.5s;
 	}
