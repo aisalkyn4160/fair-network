@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fair Network</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="index-logo logo">
+                    <img src="./assets/icons/logoVector (13).svg" alt="logo">
+                </a>
+                <div class="header-content">
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="catalog.html">Продукты</a></li>
+                            <li><a href="support.html">Поддержка</a></li>
+                            <li><a href="articles.html">Статьи</a></li>
+                            <li><a href="about.html">О компании</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn show-popup">
+                        Связаться с нами 
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.75 1C9.75 0.585787 9.41421 0.25 9 0.250001L2.25 0.25C1.83579 0.25 1.5 0.585786 1.5 1C1.5 1.41421 1.83579 1.75 2.25 1.75H8.25V7.75C8.25 8.16421 8.58579 8.5 9 8.5C9.41421 8.5 9.75 8.16421 9.75 7.75L9.75 1ZM1.53033 9.53033L9.53033 1.53033L8.46967 0.46967L0.46967 8.46967L1.53033 9.53033Z" fill="#F02D32"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="burger">
+                    <img src="./assets/icons/burger-menu.svg" alt="" class="burger-menu">
+                </div>
+            </div>
+        </header>
+        <main class="banner">
+            <div class="popup">
+                <form>
+                    <b class="close-form">+</b>
+                    <h2>Оставьте заявку</h2>
+                    <input type="text" placeholder="Ваше имя*" required>
+                    <input type="tel" placeholder="Телефон*" required>
+                    <input type="email" placeholder="E-mail">
+                    <span>Я даю согласие на <a href="#">обработку персональных данных</a></span>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+            <div class="main-block">
+                <div class="container">
+                    <div>
+                        <h2>
+                            <img src="./assets/icons/title item.svg" alt="title">
+                            — лидер на рынке сетевого оборудования
+                        </h2>
+                        <img class="main-block-img" src="./assets/imgs/main-block-img.png" alt="main-block-img">
+                    </div>
+                    <ul class="categories-list">
+                        <li><span></span>SD-WAN
+                            <div class="description">
+                                <div class="logos">
+                                    <div>Kaspersky</div>
+                                    <div>
+                                        <img src="./assets/icons/cisco.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><span></span>Открытые сетевые ОС
+                                <div class="description">
+                                    <div class="logos">
+                                        <div>Sonic</div>
+                                        <div>Sonic by Edge-Core</div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><span></span>Коммутаторы
+                            <div class="description">
+                                <p>устройства, предназначенные для соединения нескольких узлов компьютерной сети в пределах одного или нескольких сегментов сети.</p>
+                                <div class="logos">
+                                    <div>
+                                        <img src="./assets/icons/edge-core.png" alt="edge-core">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/arista.png" alt="arista">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/huawei.png" alt="huawei">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/juniper.png" alt="juniper">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/cisco.png" alt="cisco">
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li><span></span>Мониторинг
+                            <div class="description">
+                                <div class="logos">
+                                    <div>Grafana / InfluxDB 
+                                        </div>
+                                    <div>Zabbix</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><span></span>Кибербезопасность
+                            <div class="description">
+                                <div class="logos">
+                                    <div>UserGate</div>
+                                    <div>Kaspersky</div>
+                                    <div>Positive Technologies</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><span></span>Беспроводные решения
+                            <div class="description">
+                                <div class="logos">
+                                    <div>
+                                        <img src="./assets/icons/edge-core.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/huawei.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="./assets/icons/cisco.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                       </ul>
+                </div>
+            </div>
+            <div class="categories" style="background-image:url('./assets/imgs/background.png');">
+            </div>     
+        </main>
+        <footer class="footer">
+            <div class="footer-top container">
+                <a href="index.html" class="logo">
+                    <img src="./assets/icons/footer-logo.svg" alt="logo">
+                </a>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="catalog.html">Продукты</a></li>
+                        <li><a href="support.html">Поддержка</a></li>
+                        <li><a href="articles.html">Статьи</a></li>
+                        <li><a href="about.html">О компании</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact">
+                    г. Новосибирск, пр. Академика Лаврентьева, д. 2/2, п. 232
+                    <a class="mail" href="mailto:sales@fair-network.ru">sales@fair-network.ru</a>
+                    <a class="phone" href="tel:+73832580007">+7 (383) 258-00-07</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <a href="#">Политика конфиденциальности</a>
+                    <p>© 2024 fair-network.ru</p>
+                    <div class="development">
+                        <p>
+                            <a href="https://kontur-lite.ru/">Создание сайтов</a>
+                            <a href="http://kontur-promo.ru/">Продвижение сайтов</a>
+                        </p>
+                        <svg width="57" height="38" viewBox="0 0 57 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_53)">
+                            <path d="M51.6184 16.7631V18.5173H52.2493C52.9149 18.5173 53.4365 18.2673 53.4365 17.6005C53.4365 17.1591 53.2213 16.7612 52.3824 16.7612C52.1198 16.7612 51.9776 16.7518 51.6184 16.7631ZM49.875 22.9597V15.043C50.2999 15.043 52.2493 15.043 52.4681 15.043C54.5489 15.043 55.2892 16.1171 55.2892 17.5777C55.2892 19.0478 54.4176 19.6483 54.0036 19.8643L56.2083 22.9597H54.0948L52.2603 20.2147H51.6184V22.9597H49.875Z" fill="#F02D32"/>
+                            <path d="M47.5004 19.5536C47.5004 21.9746 46.0435 22.9597 44.436 22.9597C42.5073 22.9597 41.167 21.7946 41.167 19.474V15.043H42.8823V19.0895C42.8823 20.3227 43.2357 21.2623 44.436 21.2623C45.4748 21.2623 45.7852 20.4591 45.7852 19.1917V15.043H47.5004V19.5536Z" fill="#F02D32"/>
+                            <path d="M37.2083 38H0V0H37.2083V13.0015H35.4834V1.7616H1.72309V36.2384H35.4834V24.9136H37.2083V38Z" fill="#F02D32"/>
+                            <path d="M29.5462 22.9597L26.1006 18.2089V22.9597H24.542V15.043H25.8713L29.3186 19.8146L29.3151 15.043H30.8719L30.8754 22.9597H29.5462Z" fill="#F02D32"/>
+                            <path d="M33.25 15.043H38.7917V16.7392H36.7845V22.9597H35.2556V16.7392H33.25V15.043Z" fill="#F02D32"/>
+                            <path d="M7.91699 15.043H9.60071V18.4921L12.01 15.043H14.0301L11.2633 18.6966L14.2503 22.9597H12.1157L9.60071 19.1926V22.9597H7.91699V15.043Z" fill="#F02D32"/>
+                            <path d="M18.6037 21.3201C19.8774 21.3201 20.5382 20.2919 20.5382 19.0014C20.5382 17.6014 19.6858 16.6826 18.6037 16.6826C17.4936 16.6826 16.6709 17.6014 16.6709 19.0014C16.6709 20.3126 17.5316 21.3201 18.6037 21.3201ZM18.6037 15.043C20.6439 15.043 22.167 16.5618 22.167 19.0014C22.167 21.3201 20.6439 22.9597 18.6037 22.9597C16.5652 22.9597 15.042 21.439 15.042 19.0014C15.042 16.7807 16.4694 15.043 18.6037 15.043Z" fill="#F02D32"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_152_53">
+                            <rect width="57" height="38" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const catLi = document.querySelectorAll('.categories-list li');
+
+        catLi.forEach((li) => {
+            li.addEventListener('click', () => {
+                catLi.forEach((item) => {
+                    item.classList.remove('active')
+                })
+
+                li.classList.add('active')
+                // li.classList.toggle('active');
+
+
+                if (li.classList.contains('active')) {
+                    // li.style.position = 'relative'
+                    // li.style.zIndex = '10'
+                    li.parentNode.style.gap = '0'
+                    li.previousElementSibling.style.marginTop = '-24px'
+                    // li.previousElementSibling.style.position = 'relative'
+                    // li.previousElementSibling.style.zIndex = '5'
+                    li.nextElementSibling.style.marginBottom = '-24px'
+                    li.nextElementSibling.nextElementSibling.style.marginBottom = '-24px'
+
+                } else {
+                    li.parentNode.style.gap = '24px'
+                    li.previousElementSibling.style.marginTop = '0'
+                    li.nextElementSibling.style.marginBottom = '0'
+                }
+            })
+        })
+
+ 
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
